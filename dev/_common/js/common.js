@@ -140,7 +140,8 @@ function b_728x90(text1){
 	
 
 
-	tl.add(fader(".t2", read.percentGoBack))
+	tl.add(fader([".t2", ".logo2"], read.percentGoBack))
+	// tl.from(".logo2", {duration:.2, opacity:0}, "+=.1")
 	if(document.querySelector(".t2b")){
 		tl.add(fader(".t2b", read.betOnNFL))	
 	}
