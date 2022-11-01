@@ -64,7 +64,7 @@ function init(){
 
 
 
-function slider(read=2){	
+function slider(read=1.7){	
 	const tl = new TimelineMax()
 	tl.add(logoFader())
 

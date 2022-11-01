@@ -70,7 +70,7 @@ function init() {
 }
 
 function slider() {
-	var read = arguments.length <= 0 || arguments[0] === undefined ? 2 : arguments[0];
+	var read = arguments.length <= 0 || arguments[0] === undefined ? 1.7 : arguments[0];
 
 	var tl = new TimelineMax();
 	tl.add(logoFader());
